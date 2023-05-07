@@ -38,3 +38,5 @@ log.SetOutput(conceal.New(os.Stdout, conceal.CardNumber, conceal.SSN, conceal.Em
 log.Info("My credit card: 5555 5555 5555 4444, my SSN: 234-49-2324, my email: spam.me@email.com.")
 //output: My credit card: XXXX XXXX XXXX XXXX, my SSN: SSN-XX-XXXX, my email: sXXXXXe@eXXXl.com.
 ```
+
+Visit [Go Playground](https://go.dev/play/p/BCwlfPtvKrk) to see the code in action.
